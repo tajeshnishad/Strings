@@ -1,12 +1,63 @@
-a = input("enter your name:")
-print("hi my name is",a)
+# a=input("enter the first number : ")
+# b=input("enter the second number :")
+# print(a+b)
+# print(int(a)+int(b))
+# print(int(a)*int(b))
+
+''''Strings'''
+Name="sunny"
+name2="Tajesh"
+my_friend_name='naveen'
+print("hello," + Name[0]+ name2[1] + my_friend_name[0])
+
+apple='he said \"i want to eat an apple"'
+print(apple)
+
+name1= '''hi my name is Tajesh
+are u my friend
+currently persuing btech'''
+print(name1)
+
+# in triple double cots we can write multiple lines
+
+st="""
+a=input("enter the first number : ")
+b=input("enter the second number :")
+print(a+b)
+print(int(a)+int(b))
+print(int(a)*int(b))
+
+''''Strings'''
+Name="sunny"
+name2="Tajesh"
+my_friend_name='naveen'
+print("hello," + Name+ name2 + my_friend_name)
+
+apple='he said \"i want to eat an apple"'
+print(apple)
+
+name1= '''hi my name is Tajesh
+are u my friend
+currently persuing btech'''
+print(name1)
+"""
+
+print(st)
 
 
-b=input("enter your name here:")
-print("your name is :",b)
+siuuuu = "demon"
+print(siuuuu[0])
+print(siuuuu[1])
+print(siuuuu[2])
+print(siuuuu[3])
+print(siuuuu[4])
 
-x=input("enter 1st number : ")
-y=input("enter 2nd number : ")
-print(int(x)+int(y))
-print(int(x)*int(y))
-print(x+y)
+print("lets use for loop\n")
+for (character) in Name:
+  print(character)
+
+print ('lets use another loops \n')
+
+NAME = "hi my name is tajesh"
+for(character)in NAME:
+  print(character)
